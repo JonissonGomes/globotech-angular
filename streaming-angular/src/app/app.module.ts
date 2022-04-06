@@ -8,7 +8,7 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MoviesComponent } from './pages/movies/movies.component';
-import { FilmsComponent } from './pages/films/films.component';
+import { SeriesComponent } from './pages/series/series.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -17,7 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     HomeComponent,
     MoviesComponent,
-    FilmsComponent,
+    SeriesComponent,
     ContactsComponent,
     MenuComponent,
     FooterComponent
