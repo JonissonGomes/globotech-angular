@@ -21,8 +21,8 @@
 
 .photo {
   width: 200px;
-  border-radius: 50%;
-
+  height: 250px;
+  border-radius: 4px;
 }
 
 .photo:hover {
