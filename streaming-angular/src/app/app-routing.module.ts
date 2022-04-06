@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { ContactsComponent } from './pages/contacts/contacts.component';
-import { FilmsComponent } from './pages/films/films.component';
+import { FilmsComponent } from './pages/filmes/films.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MoviesComponent } from './pages/movies/movies.component';
 
