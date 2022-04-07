@@ -8,22 +8,25 @@ import { ContactsComponent } from './pages/contacts/contacts.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MoviesComponent } from './pages/movies/movies.component';
-import { FilmsComponent } from './pages/filmes/films.component';
+import { SeriesComponent } from './pages/series/series.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     MoviesComponent,
-    FilmsComponent,
+    SeriesComponent,
     ContactsComponent,
     MenuComponent,
     FooterComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
